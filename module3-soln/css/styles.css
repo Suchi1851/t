@@ -1,11 +1,40 @@
+#header-nav {
+  background-color: lightyellow;
+  border-radius: 0;
+  border: 0;
+}
+body{
+	color: #fff;
+	background-color: lightgray;
+	font-size: 16px;
+}
+.container>h3{
+	color: #000;
+	font-size: 2em;
+	margin-top: -10px;
+	line-height: .75;
+}
+.navbar-brand h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: #000;
+  font-family: Times,serif;
 
-
+}
+.row a:hover{
+	text-decoration: none;
+	color: blue;
+}
+a{
+	color: skyblue;
+}
 div > p {
 	text-align: justify;
 }
 
 .content-cell {
-	background-color: #BBDDBB;
+	background-color: black;
 	margin-bottom: 15px;
 	padding: 10px 15px;
 }
@@ -34,21 +63,53 @@ div > p {
 	}
 	
 	#collapsable-nav {
-		background-color: #BBEABB;
+		font-size: 1.3em;
+		font-family:"Times New Roman",serif;
+		background-color: #f0ffff;
+		margin-top: 2px;
 	}
 	
 	#nav-list {		
 		margin-bottom: 1px;
-		margin-top: 0px;
+		margin-top: -5px;
 	}
 	
 	#nav-list li{
 		text-align: center;
-		border: 1px solid #559955;
+		border: 1px solid #000;
 		margin-bottom:-1px;
 	}
 	#nav-list li:hover{
 		font-weight: bold;
-		background-color: #BBDDBB;
+		background-color: black;
 	}
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand{
+	padding-top: 15px;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #000;
+  background-color: gray;
+}
+
+
+
+
+
+
+
